@@ -27,10 +27,8 @@ const Footer: React.FC = () => {
   };
 
   const socialLinks = [
-    { icon: <Twitter size={20} />, href: '#', name: 'Twitter' },
-    { icon: <Facebook size={20} />, href: '#', name: 'Facebook' },
-    { icon: <Linkedin size={20} />, href: '#', name: 'LinkedIn' },
-    { icon: <Instagram size={20} />, href: '#', name: 'Instagram' }
+    { icon: <Linkedin size={20} />, href: 'https://www.linkedin.com/company/lomaa-it-solution/', name: 'LinkedIn' },
+    { icon: <Instagram size={20} />, href: 'https://www.instagram.com/lomaa_it?igsh=MWg4dnp0NG5jdjI1cQ%3D%3D&utm_source=qr', name: 'Instagram' }
   ];
 
   return (
@@ -48,15 +46,15 @@ const Footer: React.FC = () => {
             <div className="contact-info">
               <div className="contact-item">
                 <Mail size={16} />
-                <span>hello@intimeprojects.com</span>
+                <span>hr@lomaait.com</span>
               </div>
               <div className="contact-item">
                 <Phone size={16} />
-                <span>+1 (555) 123-4567</span>
+                <span>+91 9160903473</span>
               </div>
               <div className="contact-item">
                 <MapPin size={16} />
-                <span>New York, NY 10001</span>
+                <span>Ushodaya junction, MVP colony, Visakhapatnam, Andhra Pradesh</span>
               </div>
             </div>
           </div>
